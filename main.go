@@ -1,9 +1,9 @@
 package main
 
-func Reverse(s string) (result string) {
-	stringLen := len(s)
+func Reverse(word string) (result string) {
+	stringLen := len(word)
 	runes := make([]rune, stringLen)
-	for _, rune := range s {
+	for _, rune := range word {
 		stringLen--
 		runes[stringLen] = rune
 	}
