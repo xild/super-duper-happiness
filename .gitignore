@@ -1,0 +1,8 @@
+gin-bin
+main
+super-super-happiness
+vendor/
+.vscode
+.DS_Store
+glide.lock
+.release-version
