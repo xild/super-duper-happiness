@@ -3,13 +3,13 @@ package main
 import "testing"
 
 const (
-	ToReverse         = "Alice sends a message to Bobb"
-	ToReverseExpected = "bboB ot egassem a sdnes ecilA"
+	ToReverse         = "Âlica sends$ a message to Bob"
+	ToReverseExpected = "boB ot egassem a $sdnes acilÂ"
 )
 
 func TestReverse(t *testing.T) {
 	reversed := Reverse(ToReverse)
 	if reversed != ToReverseExpected {
-		t.Errorf("Expected %s but was %s ", ToReverseExpected, reversed)
+		t.Errorf("Expected [%s] but was [%s] ", ToReverseExpected, reversed)
 	}
 }
